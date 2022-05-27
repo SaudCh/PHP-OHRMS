@@ -1,0 +1,100 @@
+/* 
+light ornge: #FFF4E8  rgba(255, 244, 232, 1)
+*/
+.login-right {
+  height: 100vh;
+  background-color: #e8f2f8;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-lady-image {
+  height: 200px;
+  align-self: center;
+}
+
+.login-irregular-shape1 {
+  height: 40vh;
+  width: 20vw;
+  border-radius: 18% 82% 30% 70% / 37% 38% 62% 63%;
+  background-color: #1b7cbe;
+  opacity: 0.3;
+
+  position: absolute;
+  z-index: 3;
+  bottom: -80px;
+  right: -80px;
+}
+.login-irregular-shape2 {
+  height: 40vh;
+  width: 20vw;
+  border-radius: 32% 68% 53% 47% / 47% 35% 65% 53%;
+  background-color: #1b7cbe;
+  opacity: 0.3;
+
+  position: absolute;
+  z-index: 3;
+  bottom: -80px;
+  right: -80px;
+}
+.login-irregular-shape3 {
+  height: 40vh;
+  width: 20vw;
+  border-radius: 18% 82% 30% 70% / 37% 38% 62% 63%;
+  background-color: #fe9117;
+  opacity: 0.3;
+
+  position: absolute;
+  z-index: 3;
+  top: -80px;
+  left: -80px;
+}
+.new-account-text {
+  text-align: end;
+}
+
+@media screen and (max-width: 786px) {
+  .login-container {
+    background-color: #e8f2f8;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .login-irregular-shape1 {
+    width: 40vw;
+    position: fixed;
+    bottom: -70px;
+    right: -10px;
+  }
+
+  .login-irregular-shape2 {
+    width: 40vw;
+    position: fixed;
+    bottom: -70px;
+    right: -10px;
+  }
+
+  .login-irregular-shape3 {
+    width: 40vw;
+    position: fixed;
+    top: -100px;
+    right: -20px;
+  }
+  .login-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+}
+
+input {
+  background-color: white;
+}
+
+.login-left {
+  position: relative;
+}

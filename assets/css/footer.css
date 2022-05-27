@@ -1,0 +1,34 @@
+.back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  display: none;
+  z-index: 10;
+}
+
+.footer {
+  background-color: #fe9126;
+  display: flex;
+  color: white;
+  z-index: 2;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-links ul {
+  text-align: left;
+}
+
+.footer-links li {
+  list-style: none;
+}
+
+.copyright {
+  color: white;
+  background-color: #fe9126;
+}
