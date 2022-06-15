@@ -21,21 +21,21 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./assets/images/banner/banner1.jpg" class="d-block w-100" style="height: 70vh;" alt="...">
+                <img src="https://free4kwallpapers.com/uploads/originals/2015/09/11/office-room-interior-design.jpg" class="d-block w-100" style="height: 70vh;" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>OHRMS</h5>
                     <span class="fw-bold" style="font-style: italic;">Engage.</span>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./assets/images/banner/banner2.webp" style="height: 70vh;" class="d-block w-100" alt="...">
+                <img src="https://images.pexels.com/photos/3712597/pexels-photo-3712597.jpeg?cs=srgb&dl=pexels-david-3712597.jpg&fm=jpg" style="height: 70vh;" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>OHRMS</h5>
                     <span class="fw-bold" style="font-style: italic;">Produce.</span>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./assets/images/banner/banner3.jpg" class="d-block w-100" style="height: 70vh;" alt="...">
+                <img src="https://img.freepik.com/free-photo/luxury-working-room-executive-office_105762-1725.jpg?w=2000" class="d-block w-100" style="height: 70vh;" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>OHRMS</h5>
                     <span class="fw-bold" style="font-style: italic;">Grow.</span>
@@ -60,7 +60,7 @@
                     <img src="./assets/images/manatten.svg" class="card-img-top align-self-center mt-2" style="height: 100px;width:auto;" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">View Attendance</h5>
-                        <p class="card-text">Employee can view his\her attendance after logging in to the system </p>
+                        <p class="card-text">view attendace</p>
                         <a style="background-color: #faae36;" href="employee" class="btn text-white">View</a>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                     <img src="./assets/images/addEmp.svg" class="card-img-top align-self-center mt-2" style="height: 100px;width:auto;" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">View Profile</h5>
-                        <p class="card-text">This module provide employees to view his/her profile. </p>
+                        <p class="card-text">register new employee by adding their information in the registration form.</p>
                         <a style="background-color: #faae36;" href="add-employee" class="btn text-white">Add</a>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                     <img src="./assets/images/manageEmp.png" class="card-img-top align-self-center mt-2" style="height: 100px;width:auto;" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Update Profile</h5>
-                        <p class="card-text">This module provides employees to change their profile details.</p>
+                        <p class="card-text">manage your profike by adding their information in the registration form.</p>
                         <a style="background-color: #faae36;" href="attendance" class="btn  text-white">View</a>
                     </div>
                 </div>

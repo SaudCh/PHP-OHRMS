@@ -60,7 +60,7 @@
                     <img src="./assets/images/manatten.svg" class="card-img-top align-self-center mt-2" style="height: 100px;width:auto;" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">View Attendance</h5>
-                        <p class="card-text">Employee can view his\her attendance after logging in to the system </p>
+                        <p class="card-text">view attendace</p>
                         <a style="background-color: #faae36;" href="employee" class="btn text-white">View</a>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                     <img src="./assets/images/addEmp.svg" class="card-img-top align-self-center mt-2" style="height: 100px;width:auto;" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">View Profile</h5>
-                        <p class="card-text">This module provide employees to view his/her profile. </p>
+                        <p class="card-text">register new employee by adding their information in the registration form.</p>
                         <a style="background-color: #faae36;" href="add-employee" class="btn text-white">Add</a>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                     <img src="./assets/images/manageEmp.png" class="card-img-top align-self-center mt-2" style="height: 100px;width:auto;" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Update Profile</h5>
-                        <p class="card-text">This module provides employees to change their profile details.</p>
+                        <p class="card-text">manage your profike by adding their information in the registration form.</p>
                         <a style="background-color: #faae36;" href="attendance" class="btn  text-white">View</a>
                     </div>
                 </div>

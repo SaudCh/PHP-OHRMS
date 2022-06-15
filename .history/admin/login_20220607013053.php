@@ -9,6 +9,19 @@
     <link rel="stylesheet" href="./assets/css/admin-styles.css">
 
     <title>Login</title>
+    <style>
+        .login-body {
+            min-height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-image: linear-gradient(rgba(250, 174, 54, 0.3), rgba(250, 174, 54, 0.3)), url('../assets/images/4452961.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
 </head>
 
 <body>
