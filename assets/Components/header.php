@@ -10,10 +10,11 @@ if (isset($_SESSION['email'])) {
     header("location: login");
 }
 ?>
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #fe9117;">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="index">
             <img src="assets/images/logo.png" alt="logo" style="height: 50px;">
+            <span class="fw-bold">TechTitans</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

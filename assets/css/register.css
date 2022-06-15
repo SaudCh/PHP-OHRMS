@@ -1,107 +1,21 @@
-/* 
-light ornge: #FFF4E8  rgba(255, 244, 232, 1)
-*/
-.register-right {
-  min-height: 100vh;
-  background-color: rgba(255, 244, 232, 0.5);
-  position: relative;
+.login-body {
+  min-height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
-  align-self: normal;
+
+  background-image: linear-gradient(
+      rgba(250, 174, 54, 0.3),
+      rgba(250, 174, 54, 0.3)
+    ),
+    url("./assets/images/4452961.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
-.register-lady-image {
-  height: 200px;
-  align-self: center;
-}
-
-.register-irregular-shape1 {
-  height: 40vh;
-  width: 20vw;
-  border-radius: 18% 82% 30% 70% / 37% 38% 62% 63%;
-  background-color: #fe9117;
-  opacity: 0.3;
-
-  position: absolute;
-  z-index: 3;
-  bottom: -80px;
-  right: -80px;
-}
-.register-irregular-shape2 {
-  height: 40vh;
-  width: 20vw;
-  border-radius: 32% 68% 53% 47% / 47% 35% 65% 53%;
-  background-color: #fe9117;
-  opacity: 0.3;
-
-  position: absolute;
-  z-index: 3;
-  bottom: -80px;
-  right: -80px;
-}
-.register-irregular-shape3 {
-  height: 40vh;
-  width: 20vw;
-  border-radius: 32% 68% 53% 47% / 47% 35% 65% 53%;
-  background-color: #1b7cbe;
-  opacity: 0.3;
-
-  position: absolute;
-  z-index: 3;
-  top: -100px;
-  left: -100px;
-}
-.already-account-text {
-  text-align: end;
-}
-
-.register-right {
-  min-height: 100vh;
-  background-color: rgba(255, 244, 232, 0.5);
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  align-self: normal;
-}
-
-@media screen and (max-width: 786px) {
-  .register-container {
-    background-color: rgba(255, 244, 232, 0.5);
-    min-height: 100vh;
-    overflow: hidden;
-    position: relative;
-  }
-
-  .register-irregular-shape1 {
-    width: 40vw;
-    position: fixed;
-    bottom: -70px;
-    right: -10px;
-  }
-
-  .register-irregular-shape2 {
-    width: 40vw;
-    position: fixed;
-    bottom: -70px;
-    right: -10px;
-  }
-
-  .register-irregular-shape3 {
-    width: 40vw;
-    position: fixed;
-    top: -100px;
-    right: -20px;
-  }
-}
-
-input {
-  background-color: white;
-}
-
-.login-left {
-  position: relative;
+.login-card {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 1px 1px 10px;
+  border-radius: 20px;
+  border-color: #faae36;
 }

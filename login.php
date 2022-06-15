@@ -19,27 +19,39 @@ if (isset($_SESSION['email'])) {
     <?php require "./assets/includes/link.includes.php" ?>
     <link rel="stylesheet" href="./assets/css/login.css" type="text/css">
     <title>Login</title>
+    <style>
+        .login-body {
+            min-height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-image: linear-gradient(rgba(250, 174, 54, 0.3), rgba(250, 174, 54, 0.3)), url('./assets/images/4452961.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
 </head>
 
-<body style="overflow: hidden;">
-    <div class="container-fluid">
-        <div class="row align-items-center justify-content-center login-container">
-            <div class="login-irregular-shape1 d-block d-md-none">
+<body>
+    <div class="container-fluid login-body p-5" style="min-height: 100vh;">
+        <div class="row  login-card" style="width: 100%;min-height:80vh;">
+            <div class="col-5 d-none d-md-flex justify-content-center align-items-center" style="background-color: rgba(250, 174, 54, 0.6);border-top-left-radius:20px;border-bottom-left-radius:20px;">
+                <div class="text-center">
+                    <img src="./assets/images/logo.png" width="150" class="img-fluid mb-1" alt=""><br>
+                    <span class="fw-bold" style="font-style: italic;">Engage. Produce. Grow.</span><br><br>
+                </div>
             </div>
-            <div class="login-irregular-shape2 d-block d-md-none">
-            </div>
-            <div class="login-irregular-shape3">
-            </div>
-
-            <div class="col-10 col-md-7 login-left">
-                <form method="POST" action="./assets/includes/login.includes.php" style="z-index: 10;position:relative;" class="mx-0 px-0 px-md-5 mx-md-5">
+            <div class="col-11 col-md-7 d-flex align-items-center">
+                <form method="POST" action="./assets/includes/login.includes.php" style="width:100%" class="mx-0 px-0 px-md-5 mx-md-5">
                     <?php require "./assets/includes/alert.includes.php" ?>
                     <div class="text-center d-md-none">
-                        <img src="./assets/images/login.svg" class="login-lady-image" alt="" />
-                        <p class="p-0" style="font-style: italic;font-weight:500">
-                        Personnel really matter!
-                    </p>
+                        <img src="./assets/images/logo.png" width="150" class="img-fluid mb-1" alt=""><br>
+                        <span class="fw-bold" style="font-style: italic;">Engage. Produce. Grow.</span><br><br>
                     </div>
+                    <span class="fw-bold h3 mb-1">Welcome Back</span><br>
+                    <span class="text-muted">Login your account</span><br><br>
                     <div class="mb-2">
                         <label for="email" class="form-label">Email address</label>
                         <input type="email" name="email" class="form-control bg-light" id="email">
@@ -49,23 +61,11 @@ if (isset($_SESSION['email'])) {
                         <input type="password" name="password" class="form-control" id="password">
                     </div>
 
-                    <p class="already-account-text">New to OHRMS?<a class="link" href="register">Register here</a></p>
-                    <button type="submit" name="submit" class="btn text-white" style="background-color: #fe9117;">Login</button>
+                    <p class="already-account-text">New to OHRMS?<a class="link text-success" href="register">Register here</a></p>
+                    <button type="submit" name="submit" class="btn text-white px-5 mb-4" style="background-color: #faae36;border-radius:20px;">Login</button>
                 </form>
             </div>
-            <div class="col-12 col-md-5 login-right d-none d-md-flex">
-                <div class="login-irregular-shape1">
-                </div>
-                <div class="login-irregular-shape2">
-                </div>
 
-                <div class="text-center">
-                    <img src="./assets/images/login.svg" class="login-lady-image" alt="" />
-                    <p class="p-0" style="font-style: italic;font-weight:500">
-                        Personnel really matter!
-                    </p>
-                </div>
-            </div>
         </div>
     </div>
 </body>

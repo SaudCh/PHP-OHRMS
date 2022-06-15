@@ -7,8 +7,17 @@
 
 <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
 <link rel="stylesheet" href="./assets/css/footer.css" type="text/css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+
 <style>
     .link {
         text-decoration: none;
+    }
+    *{
+        font-family: 'Open Sans', sans-serif;
     }
 </style>

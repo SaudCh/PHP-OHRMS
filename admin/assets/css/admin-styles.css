@@ -1,0 +1,75 @@
+.login-body {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(
+      rgba(250, 174, 54, 0.3),
+      rgba(250, 174, 54, 0.3)
+    ),
+    url("../../../assets/images/4452961.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.login-card {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 1px 1px 10px;
+  border-radius: 20px;
+  border-color: #faae36;
+}
+
+.profile-body {
+  min-height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../assets/images/4452961.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.link {
+  text-decoration: none;
+}
+.index-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../assets/images/4452961.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.profile-body {
+  min-height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../assets/images/4452961.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cus-card {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 1px 1px 10px;
+  border-radius: 20px;
+  border-color: #faae36;
+}
+#cus-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+#cus-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+#cus-scroll::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+#cus-scroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
